@@ -135,17 +135,48 @@ public class PainelCadastro extends JPanel {
         comboClasses.addItem("Mago");
         comboClasses.addItem("Arqueiro");
         comboClasses.addItem("Bardo");
-        
         //comboClasses.setSelectedIndex(-1);
+        /* 
+        imagem = new ImageIcon(file.getPath());//pega dir da imagem 
+        novaImagem = new ImageIcon(imagem.getImage().getScaledInstance(90, -1, Image.SCALE_DEFAULT));//pega a imagem com novo tam
+        atualizaLabel(novaImagem);
+        repaint();
         
-        painelCombo.add(comboClasses);
-        
-        constraintsPersonagem.gridx = 0;
-        constraintsPersonagem.gridy = 3;
-        add(painelCombo,constraintsPersonagem);
-        
-        //-------------------------------------------------------------
-        
+        switch ((String)  comboClasses.getSelectedItem()) {
+            case "Guerreiro":
+            imagemFundo.setImage();
+            break;
+            case "Mago":
+            imagemFundo.setImage(new DefaultComboBoxModel<String>(getEventosFevereiro()));
+            break;
+            case "Arqueiro":
+            imagemFundo.setImage(new DefaultComboBoxModel<String>(getEventosFevereiro()));
+            break;
+            case "Bardo":
+            imagemFundo.setImage();
+                break;
+                default:
+                break;
+            }
+            */
+            
+            painelCombo.add(comboClasses);
+            
+            constraintsPersonagem.gridx = 0;
+            constraintsPersonagem.gridy = 3;
+            add(painelCombo,constraintsPersonagem);
+            
+            //-------------------------------------------------------------
+            
+            if((comboClasses.getSelectedItem()=="Bardo")){
+                comboClasses.addItem("Funcionou");
+                /*
+                ImageIcon imagem = new ImageIcon("imgens/imagem-boas-vindas.jpg");
+                imagemFundo.setImage = new ImageIcon(imagem.getImage().getScaledInstance(480, 200, Image.SCALE_DEFAULT));
+                JLabel label = new JLabel(imagemFundo);
+                painelImagem.add(label);
+                */
+            }
         JPanel painelHabilidades = new JPanel(new FlowLayout());
         
         painelHabilidades.setLayout(new GridBagLayout());
