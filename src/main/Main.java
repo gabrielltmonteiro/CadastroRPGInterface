@@ -6,8 +6,7 @@ import view.Janela;
 import view.PainelBoasVindas;
 
 public class Main {
-    
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         //DatabaseConnection.setConfig("jdbc:sqlite:personagem.db", "", "", "org.sqlite.JDBC");
         PainelBoasVindas pbv = new PainelBoasVindas();
         new Janela(pbv);
