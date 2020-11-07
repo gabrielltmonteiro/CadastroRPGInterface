@@ -17,7 +17,7 @@
 
 * Twitter: [@GangSystem](https://twitter.com/GangSystem)
 * Github: [@gabrielltmonteiro](https://github.com/gabrielltmonteiro)
-* LinkedIn: [@Gabriel Lucas Teixeira Monteiro](https://linkedin.com/in/Gabriel Lucas Teixeira Monteiro)
+* LinkedIn: [@Gabriel Lucas Teixeira Monteiro](https://www.linkedin.com/in/gltm-jrsoftwaredeveloper/)
 
 ## Show your support
 
